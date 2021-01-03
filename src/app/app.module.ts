@@ -12,6 +12,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 // importar rutas
 import { ROUTES } from './app.routes';
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 //serivces
 // import { SpotifyService } from './services/spotify.service';
@@ -23,7 +25,9 @@ import { ROUTES } from './app.routes';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
