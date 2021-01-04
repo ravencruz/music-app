@@ -12,6 +12,9 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 // importar rutas
 import { ROUTES } from './app.routes';
+
+
+// Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
